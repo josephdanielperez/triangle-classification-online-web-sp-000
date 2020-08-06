@@ -23,6 +23,7 @@ attr_accessor :first_side, :second_side, :third_side, :equilateral, :isosceles, 
   end
 
   class TriangleError < StandardError
+    puts "Uh-oh, how can something so obtuse come from something so acute!? This can't be right!"
   end
 
 
