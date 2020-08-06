@@ -6,4 +6,7 @@ attr_accessor :equilateral, :isosceles, :scalene
     attributes.each {|key, value| self.send(("#{key}="), value)}
   end
 
+  class TriangleError
+  end
+
 end
