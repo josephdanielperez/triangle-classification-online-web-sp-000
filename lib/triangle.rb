@@ -6,8 +6,8 @@ attr_accessor :first_side, :second_side, :third_side, :equilateral, :isosceles, 
     @first_side = first_side
     @second_side = second_side
     @third_side = third_side
-    @@sides = [first_side, second_side, third_side] 
-  end 
+    @@sides = [first_side, second_side, third_side]
+  end
 
   class TriangleError
   end
